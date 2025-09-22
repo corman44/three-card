@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqjr8nmv5qsut"]
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_s8stb"]
+
+[node name="NetworkPlayer" type="CharacterBody2D"]
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_s8stb")

@@ -12,7 +12,11 @@ config_version=5
 
 config/name="Three-Card"
 run/main_scene="uid://d5lucreyl8cg"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/features=PackedStringArray("4.5", "GL Compatibility")
+
+[autoload]
+
+NetworkHandler="*res://scripts/network_handler.gd"
 
 [display]
 
