@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c4k2va8mki6bi"]
 
-[ext_resource type="Texture2D" uid="uid://fealc6etvmmf" path="res://Vines Line Art.png" id="1_xrvgy"]
+[ext_resource type="Texture2D" uid="uid://fealc6etvmmf" path="res://assets/Vines Line Art.png" id="1_xrvgy"]
 
 [node name="GameBoard" type="Node2D"]
 
@@ -8,8 +8,8 @@
 
 [node name="VinesLineArt" type="Sprite2D" parent="CanvasGroup"]
 z_index = -1
-position = Vector2(576, 319.99997)
-scale = Vector2(0.56888884, 0.28444445)
+position = Vector2(576, 320)
+scale = Vector2(0.568889, 0.284444)
 texture = ExtResource("1_xrvgy")
 metadata/_edit_group_ = true
 
