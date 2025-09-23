@@ -21,6 +21,7 @@ NetworkHandler="*res://scripts/network_handler.gd"
 [display]
 
 window/size/borderless=true
+window/subwindows/embed_subwindows=false
 
 [rendering]
 

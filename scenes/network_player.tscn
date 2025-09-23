@@ -19,3 +19,7 @@ replication_config = SubResource("SceneReplicationConfig_s8stb")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(64, 64)
 shape = SubResource("CircleShape2D_s8stb")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.43529412, 1, 1, 1)
+polygon = PackedVector2Array(128, 64, 64, 0, 0, 64, 40, 64, 40, 128, 88, 128, 88, 64)
