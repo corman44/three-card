@@ -1,7 +1,7 @@
 extends Node
 
-const IP_ADDRESS: String = "localhost"
-const PORT: int = 12345
+const IP_ADDRESS: String = "192.168.1.28"
+const PORT: int = 33312
 
 const MAX_PLAYERS: int = 4
 
