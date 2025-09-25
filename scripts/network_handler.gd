@@ -1,6 +1,7 @@
 extends Node
 
-const IP_ADDRESS: String = "192.168.1.28"
+const IP_ADDRESS: String = "localhost" # for local testing
+#const IP_ADDRESS: String = "192.168.2.28" # for RPi Server
 const PORT: int = 33312
 
 const MAX_PLAYERS: int = 4
