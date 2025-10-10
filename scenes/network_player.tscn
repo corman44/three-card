@@ -2,18 +2,10 @@
 
 [ext_resource type="Script" uid="uid://tgv7uh881e2e" path="res://scripts/network_player.gd" id="1_27uls"]
 
-[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_s8stb"]
-properties/0/path = NodePath(".:position")
-properties/0/spawn = true
-properties/0/replication_mode = 1
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_27uls"]
 
-[node name="NetworkPlayer" type="CharacterBody2D"]
+[node name="NetworkPlayer" type="Node"]
 script = ExtResource("1_27uls")
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
-replication_config = SubResource("SceneReplicationConfig_s8stb")
-
-[node name="Polygon2D" type="Polygon2D" parent="."]
-scale = Vector2(0.5, 0.5)
-color = Color(0.43529412, 1, 1, 1)
-polygon = PackedVector2Array(128, 64, 64, 0, 0, 64, 40, 64, 40, 128, 88, 128, 88, 64)
+replication_config = SubResource("SceneReplicationConfig_27uls")
